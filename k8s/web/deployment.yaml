@@ -14,7 +14,7 @@ spec:
     spec: 
       containers:
         - name: movies
-          image: fabricioveronez/rotten-potatoes
+          image: gomesdocker/rotten-portatoes
           ports:
             - containerPort: 5000
           env: 
