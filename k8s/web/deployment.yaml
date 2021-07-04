@@ -14,7 +14,7 @@ spec:
     spec: 
       containers:
         - name: movies
-          image: gomesdocker/rotten-portatoes:latest
+          image: gomesdocker/rotten-portatoes
           ports:
             - containerPort: 5000
           env: 
